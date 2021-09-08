@@ -78,7 +78,7 @@ function AddArticle(props) {
         setTypeInfo(res.data.data);
       }
     }).catch((error)=>{
-      message.error("服务器奔溃..."+error)
+      message.error("服务器奔溃,报错信息"+error)
     })
   };
 
